@@ -129,21 +129,32 @@
   <ItemGroup>
     <ClCompile Include="BaoCaoThongKe.cpp" />
     <ClCompile Include="BaoCaoThongKe.h" />
+    <ClCompile Include="DatVe.cpp" />
     <ClCompile Include="DocTT.h" />
     <ClCompile Include="KhachHang.h" />
     <ClCompile Include="LoginnSignUp.cpp" />
     <ClCompile Include="QuanLy.cpp" />
     <ClCompile Include="QuanLyChuyenXe.cpp" />
+    <ClCompile Include="QuanLyTK.cpp" />
     <ClCompile Include="QuanLyVe.cpp" />
     <ClCompile Include="QuanLyXe.cpp" />
+    <ClCompile Include="Thanh Toan.cpp" />
+    <ClCompile Include="TimVaHienThiCX.cpp" />
+    <ClCompile Include="TraCuuChuyenXe.cpp" />
     <ClCompile Include="ttChuyenXe.txt" />
     <ClCompile Include="ttKhachHang.txt" />
+    <ClCompile Include="ttXe.txt" />
     <ClCompile Include="Xe.h" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChuyenXe.h" />
-    <ClInclude Include="QuangLy.h" />
+    <ClInclude Include="DatVe.h" />
+    <ClInclude Include="QuanLy.h" />
+    <ClInclude Include="QuanLyTK.h" />
+    <ClInclude Include="ThanhToan.h" />
+    <ClInclude Include="TimVaHienThiCX.h" />
+    <ClInclude Include="TraCuuChuyenXe.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="Ve.h" />
   </ItemGroup>

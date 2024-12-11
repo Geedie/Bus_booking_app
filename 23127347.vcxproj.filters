@@ -13,24 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\QUANLY">
+      <UniqueIdentifier>{f2702978-eae8-4d44-a235-bd4327d5f6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FEATURE">
+      <UniqueIdentifier>{3d524641-4cd4-4a7d-ae0c-26f39859728b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DATA">
+      <UniqueIdentifier>{1d38b6b6-2a5c-45d3-b02e-c2399e51b485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FT FUNC">
+      <UniqueIdentifier>{dca539ab-c3b2-4b0f-adeb-595909804a95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Xe.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="KhachHang.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuanLyXe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuanLyChuyenXe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QuanLyVe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ttKhachHang.txt">
@@ -39,34 +36,82 @@
     <ClCompile Include="ttChuyenXe.txt">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaoCaoThongKe.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LoginnSignUp.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="ttXe.txt">
+      <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="QuanLy.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\QUANLY</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyVe.cpp">
+      <Filter>Source Files\QUANLY</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyChuyenXe.cpp">
+      <Filter>Source Files\QUANLY</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyXe.cpp">
+      <Filter>Source Files\QUANLY</Filter>
     </ClCompile>
     <ClCompile Include="BaoCaoThongKe.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\QUANLY</Filter>
+    </ClCompile>
+    <ClCompile Include="TraCuuChuyenXe.cpp">
+      <Filter>Source Files\FEATURE</Filter>
+    </ClCompile>
+    <ClCompile Include="TimVaHienThiCX.cpp">
+      <Filter>Source Files\FEATURE</Filter>
+    </ClCompile>
+    <ClCompile Include="Thanh Toan.cpp">
+      <Filter>Source Files\FEATURE</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginnSignUp.cpp">
+      <Filter>Source Files\FEATURE</Filter>
+    </ClCompile>
+    <ClCompile Include="DatVe.cpp">
+      <Filter>Source Files\FEATURE</Filter>
+    </ClCompile>
+    <ClCompile Include="Xe.h">
+      <Filter>Header Files\DATA</Filter>
     </ClCompile>
     <ClCompile Include="DocTT.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="KhachHang.h">
+      <Filter>Header Files\DATA</Filter>
+    </ClCompile>
+    <ClCompile Include="BaoCaoThongKe.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClCompile>
+    <ClCompile Include="QuanLyTK.cpp">
+      <Filter>Source Files\QUANLY</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ChuyenXe.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Ve.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\DATA</Filter>
     </ClInclude>
     <ClInclude Include="User.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\DATA</Filter>
     </ClInclude>
-    <ClInclude Include="QuangLy.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="ChuyenXe.h">
+      <Filter>Header Files\DATA</Filter>
+    </ClInclude>
+    <ClInclude Include="DatVe.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClInclude>
+    <ClInclude Include="ThanhToan.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClInclude>
+    <ClInclude Include="TimVaHienThiCX.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClInclude>
+    <ClInclude Include="TraCuuChuyenXe.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanLyTK.h">
+      <Filter>Header Files\FT FUNC</Filter>
+    </ClInclude>
+    <ClInclude Include="QuanLy.h">
+      <Filter>Header Files\DATA</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
